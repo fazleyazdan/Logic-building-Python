@@ -7,8 +7,8 @@ def counts_vow_cons(word):
     vow_count = 0                   
     cons_count = 0
     
-    for i in range(len(word)):  
-        if word[i].lower() in vowels:                #! convert it to lower case as we have lower case letters in 'vowels list'
+    for i in word.lower():           #! convert it to lower case as we have lower case letters in 'vowels list'
+        if i in vowels:                
             vow_count += 1
         else:
             cons_count +=1
