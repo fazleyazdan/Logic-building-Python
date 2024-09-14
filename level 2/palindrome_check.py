@@ -31,7 +31,7 @@ def if_palindrome(s):
 s1 = 'racecar'
 back_str = if_palindrome(s1)
 
-print("=============")
+print("===============")
 if s1 == back_str:
     print(True)
 else:
