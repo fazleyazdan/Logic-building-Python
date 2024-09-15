@@ -6,10 +6,21 @@
 
 
 def count_words(sentence):
-    count = 0
-    for i in sentence:
-        if i == " " or i == ".":
-            count += 1
-    return count
+    
+    words = sentence.split()
+    return len(words)
 
-print(count_words("this is my laptop."))
+print(count_words("i am practicing coding"))
+
+
+
+#! Approach 2: NOTE : it is limited
+
+# def count_words(sentence):
+#     count = 0
+#     for i in sentence:
+#         if i == " " or i == ".":
+#             count += 1
+#     return count
+
+# print(count_words("this is my laptop."))
