@@ -12,6 +12,8 @@ def count_words(sentence):
 
 print(count_words("i am practicing coding"))
 
+# split() Method: The split() method automatically splits the string by spaces and handles multiple spaces gracefully. 
+# It will return a list of words.
 
 
 #! Approach 2: NOTE : it is limited
