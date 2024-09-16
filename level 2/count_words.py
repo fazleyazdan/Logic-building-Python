@@ -16,7 +16,7 @@ print(count_words("i am practicing coding"))
 # It will return a list of words.
 
 
-#! Approach 2: NOTE : it is limited
+#! Approach 2: NOTE : it is limited and not recommended
 
 # def count_words(sentence):
 #     count = 0
