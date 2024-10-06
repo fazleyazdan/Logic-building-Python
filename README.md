@@ -5,4 +5,3 @@
 * level 1 --> reverse_string.py
 * level 2 --> palindrome_check.py
 
-
